@@ -1,5 +1,10 @@
 # P1-Navmesh-Pathfinding
 **P1: Navmesh Pathfinding**  
+Team member:  
+ - Zhuo Chen 
+ - Justin Satriano  
+
+ 6/28/2023
 Using to_bw.py to convert an image to black-white image.  
 e.g. $python to_bw.py ../input/test.png  
 ![This is the original image.](/input/test.png)  
