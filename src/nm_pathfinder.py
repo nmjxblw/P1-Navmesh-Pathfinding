@@ -89,6 +89,8 @@ def find_path(source_point, destination_point, mesh):
 
     while queue:
         priority, forward_box, backward_box = heappop(queue)
+        boxes[forward_box] = None
+        boxes[backward_box] = None
         forward_start_point = forward[forward_box][3]
         backward_start_point = backward[backward_box][3]
         priority_forward_backward = get_distance_point_to_point(

@@ -17,3 +17,7 @@ e.g. $python to_bw.py ../input/test.png
 7/2/2023  
 - [x] **Implement a function to compute a path from a source to destination point in a navmesh using  A\* bidirectional algorithm.**
 ![Final version of the A* bidirectional algorithm](/input/2023-7-2.png)
+
+7/3/2023
+Modified the code for printing boxes, now findpath.py will return all visited boxes, not just all boxes on the path.
+![The result after Modified](/input/2023-07-03.png)
